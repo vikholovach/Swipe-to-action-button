@@ -13,6 +13,8 @@
 		368297212AD7E624005E7BB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3682971F2AD7E624005E7BB7 /* Main.storyboard */; };
 		368297232AD7E625005E7BB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 368297222AD7E625005E7BB7 /* Assets.xcassets */; };
 		368297262AD7E625005E7BB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 368297242AD7E625005E7BB7 /* LaunchScreen.storyboard */; };
+		3682972F2AD7E65E005E7BB7 /* SwipeToActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3682972E2AD7E65E005E7BB7 /* SwipeToActionButton.swift */; };
+		368297312AD7E691005E7BB7 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 368297302AD7E691005E7BB7 /* Colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		368297222AD7E625005E7BB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		368297252AD7E625005E7BB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		368297272AD7E625005E7BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3682972E2AD7E65E005E7BB7 /* SwipeToActionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeToActionButton.swift; sourceTree = "<group>"; };
+		368297302AD7E691005E7BB7 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		368297182AD7E624005E7BB7 /* Swipe_to_action_button */ = {
 			isa = PBXGroup;
 			children = (
+				3682972D2AD7E649005E7BB7 /* SwipeButton */,
 				368297192AD7E624005E7BB7 /* AppDelegate.swift */,
 				3682971B2AD7E624005E7BB7 /* SceneDelegate.swift */,
 				3682971D2AD7E624005E7BB7 /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				368297272AD7E625005E7BB7 /* Info.plist */,
 			);
 			path = Swipe_to_action_button;
+			sourceTree = "<group>";
+		};
+		3682972D2AD7E649005E7BB7 /* SwipeButton */ = {
+			isa = PBXGroup;
+			children = (
+				3682972E2AD7E65E005E7BB7 /* SwipeToActionButton.swift */,
+				368297302AD7E691005E7BB7 /* Colors.swift */,
+			);
+			path = SwipeButton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +153,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3682971E2AD7E624005E7BB7 /* ViewController.swift in Sources */,
+				368297312AD7E691005E7BB7 /* Colors.swift in Sources */,
 				3682971A2AD7E624005E7BB7 /* AppDelegate.swift in Sources */,
+				3682972F2AD7E65E005E7BB7 /* SwipeToActionButton.swift in Sources */,
 				3682971C2AD7E624005E7BB7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
